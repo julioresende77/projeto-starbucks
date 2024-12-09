@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding: 20px 100px 0 100px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    width: 600px;
+}
+
+.info h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 50px;
+    color: #333;
+}
+
+.info h2 span {
+    color: #017143;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.info p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #333;
+    font-size: 16px;
+}
+
+.info button {
+    background-color: #017143;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.info button:hover {
+    background-color: #01ac26;
+    transition: 0.5s;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.imagem-principal {
+    width: 350px;
+}
+
+.bg-imagem {
+    background: #017143;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: circle(600px at right 800px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+.imagem-menu:hover {
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
